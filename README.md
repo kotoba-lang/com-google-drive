@@ -61,13 +61,13 @@ This namespace cannot obtain a credential; `connector.invoke` attaches it.
 drifted.
 
 ```sh
-nbb --classpath "src:../connector/src" emit-connector-edn.cljs
+nbb --classpath "src:../connector/src" emit-connector-edn.cljk
 ```
 
 ## Tests
 
 ```sh
-nbb --classpath "src:test:../connector/src" run-tests.cljs   # 10 tests, 34 assertions
+nbb --classpath "src:test:../connector/src" run-tests.cljk   # 10 tests, 34 assertions
 clojure -M:test
 ```
 
